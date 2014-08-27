@@ -1,6 +1,12 @@
 ##Silverline CMS Package
 
 This tutorial will help you install this package onto Laravel Frameworks
+This tutorial assume that you have a good idea how composer works
+This package is not limited on laravel frameworks only, you may install this
+on any frameworks as long as php version is high 5.3 >=
+
+You may clone and issue "composer install" to this repo if you want a working copy
+https://github.com/paylok999/silverlines_laravel_cms
 
 ##Laravel Installation
 ____________
@@ -30,10 +36,12 @@ add the repository url of the Silverline CMS Package repo
 Install the packages
 
     composer update
+	
+Import homestead.sql into your database engine
 
 Mysql Username and Password
 	
-	Since this is a package and do not depend entirely on frameworks(you can install this on any framework), please change your mysql database(phpmyadmin) access to
+	Since this is a package and do not depend entirely on frameworks(you can install this on any framework as long as phpversion is high), please change your mysql database(phpmyadmin) access to
 	
 	host: localhost
 	dbname: homestead
