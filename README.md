@@ -31,6 +31,18 @@ Install the packages
 
     composer update
 
+Mysql Username and Password
+	
+	Since this is a package and do not depend entirely on frameworks(you can install this on any framework), please change your mysql database(phpmyadmin) access to
+	
+	host: localhost
+	dbname: homestead
+	username: root
+	password: secret
+	
+or you may refer to this for database authentication
+https://github.com/paylok999/silverlines_cms/blob/master/src/Silverlines/CMS/DataAccessObject/MySqlUsersDao.php#L14
+
 ##Injecting the Class
 ____________
 
