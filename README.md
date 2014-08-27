@@ -5,9 +5,12 @@ This tutorial assume that you have a good idea how composer works
 This package is not limited on laravel frameworks only, you may install this
 on any frameworks as long as php version is high 5.3 >=
 
+Alternative method
 You may clone and issue "composer install" to this repo if you want a working copy
 https://github.com/paylok999/silverlines_laravel_cms
+you will not needing any more settings after cloning it. just be sure to issue "composer install" on you root directory
 
+Required Method - For intermediate to advance composer user
 ##Laravel Installation
 ____________
 
